@@ -1,0 +1,59 @@
+html {
+  font-size: 10px;
+  background-image: url("drums.jpg");
+  background-position: center;
+}
+body,html {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header{
+
+  font-family: 'Gamja Flower';
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.keys {
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 350px;
+}
+
+.key{
+  background-color: rgba(5, 98, 94);
+  border: 2px solid #000709;
+  margin: 20px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  width:75px;
+  transition: all .7s ease;
+
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color: #e7fe0b;
+  box-shadow: 0 0 4px #e7fe0b;
+}
+
+kbd {
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.sound {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #e7fe0b;
+}
